@@ -28,7 +28,7 @@ function copyText (context) {
 
   var arr = [];
   if ( selectedCount == 0 ) {
-    doc.showMessage("No layers are selected.");
+    return doc.showMessage("No layers are selected.");
   } else {
     pasteBoard.clearContents();
     for ( var i = 0; i < selectedCount; i++ ) {
@@ -100,7 +100,7 @@ function pasteText(context) {
   var arr = [];
 
   if ( selectedCount == 0 ) {
-    doc.showMessage("No layers are selected.");
+    return doc.showMessage("No layers are selected.");
   } else {
     for ( var i = 0; i < selectedCount; i++ ) {
       var layer = selection[i];
