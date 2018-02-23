@@ -1,0 +1,31 @@
+{
+  "author" : "Kazuyuki Motoyama",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "handler" : "copyText",
+      "shortcut" : "ctrl alt shift c",
+      "name" : "Copy Text",
+      "identifier" : "copy"
+    },
+    {
+      "script" : "script.js",
+      "handler" : "pasteText",
+      "shortcut" : "ctrl alt shift v",
+      "name" : "Paste Text",
+      "identifier" : "paste"
+    }
+  ],
+  "menu":{
+    "title" : "Copy & Paste Text",
+    "items" : [
+      "copy",
+      "paste"
+    ]
+  },
+  "identifier" : "copy-paste-text",
+  "version" : "1.0.0",
+  "description" : "Copy & Paste Text",
+  "authorEmail" : "kudakurage@gmail.com",
+  "name" : "Copy & Paste Text"
+}
